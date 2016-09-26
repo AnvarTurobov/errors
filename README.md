@@ -1,4 +1,6 @@
-A small meteor package(ES6) to display application level errors to the user
+A small and responsive meteor package(ES6) to display application level errors to the users.
+
+
 
 example:
 
@@ -6,7 +8,7 @@ example:
 <template name="Layout">
 	<div class="container">
 		{{> header}}
-		{{> meteorErrors}}  // Package specific template   
+		{{> appErrors}}  // Package specific template   
 		<div id="main">
 			{{> yield}}
 		</div>
