@@ -14,3 +14,9 @@ Package.onUse((api, where) => {
 	if (api.export) 
 		api.export('Errors');
 });
+
+Package.onTest(api => {
+	api.use('anvar:errors', 'client');
+	api.use(['templating', 'tinytest', 'test-helpers'], 'client');  
+	api.addFiles('errors_tests.js', 'client');
+});
