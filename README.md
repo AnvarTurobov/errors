@@ -1,3 +1,5 @@
+A small meteor package(ES6) to display application level errors to the user
+
 example:
 
 ```
