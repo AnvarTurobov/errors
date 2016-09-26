@@ -20,3 +20,4 @@ Package.onTest(api => {
 	api.use(['templating', 'tinytest', 'test-helpers'], 'client');  
 	api.addFiles('errors_tests.js', 'client');
 });
+
